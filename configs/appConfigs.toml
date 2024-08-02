@@ -1,0 +1,10 @@
+#Logging configurations
+[LOGGING]
+level="DEBUG"
+[[LOGGING.logFileConfigs]]
+logPath="./logs"
+fileName="mailEngine"
+maxAge=1
+maxBackup=3
+maxSize=10
+compression=true
